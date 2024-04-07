@@ -27,7 +27,7 @@ public class LoginPage {
 	private By loginErrorMsg=By.cssSelector("div.alert.alert-danger.alert-dismissible");
 	
 	//4 . Page Action
-	@Step("getting Login Page Title ....")
+	@Step("getting Login Page Title value ....")
 	public String getLoginPageTitleTest() {
 	return eleutil.doGetTitleWithFraction(Constants.LOGIN_PAGE_TITLE, Constants.DEFAULT_TIME_OUT);
 	}
